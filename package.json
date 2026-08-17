@@ -1,0 +1,22 @@
+{
+  "name": "world-trigger-paperback",
+  "version": "1.0.0",
+  "repositoryName": "World Trigger Paperback",
+  "description": "Paperback 0.8 source for world-trigger-chapters.online",
+  "main": "index.js",
+  "author": "Community",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "paperback bundle",
+    "serve": "paperback serve",
+    "test": "paperback test"
+  },
+  "devDependencies": {
+    "@paperback/toolchain": "^0.8.7",
+    "@paperback/types": "^0.8.7",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
